@@ -21,8 +21,10 @@
 - 네이버 클라우드 설치 (https://www.ncloud.com/) (DB용)
   ->Server: OS CentOS 7.3 (64-bit)         
      -서버 접속용 공인 IP : 101.101.164.71, 외부 포트 : 1200
+  
   ->Cloud DB for MySQL -> 10.2.24 MariaDB  
      -서버 접속용 공인 IP : 101.101.167.239 외부 포트 : 3306
+  
   ->클라우드로 DB를 구성하여 테이블에 데이터를 생성하여 INSERT해 놓았습니다.
 
 
