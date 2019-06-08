@@ -129,7 +129,7 @@
     새 테이블(newtrade_info)에서 조회를 한다.
 
     *문제에서 결과 출력자료형
-     sumAmt->숫자 brName,brCode->String 이고 결과가 바로 배열{}로 나온다.\n
+     sumAmt->숫자 brName,brCode->String 이고 결과가 바로 배열{}로 나온다.
 
     판교로 조회했을때 분당점과 판교점이 합산한 결과가 나온다
     결과: {"brCode":"A","brName":"판교점","sumAmt":171210000}
