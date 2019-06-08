@@ -131,13 +131,19 @@
     *문제에서 결과 출력자료형
      sumAmt->숫자 brName,brCode->String 이고 결과가 바로 배열{}로 나온다.
 
+
     판교로 조회했을때 분당점과 판교점이 합산한 결과가 나온다
+    
     결과: {"brCode":"A","brName":"판교점","sumAmt":171210000}
 
+
     분당 또는 다른이름으로 조회했을때
+    
     결과: {"code":"404","메세지":"brCode not found error"}
 
+
     POST로 올바른 JSON형식이 오지 않을 경우
+    
     결과: {"code":"404","메세지":"No JSON format"}
     
 
