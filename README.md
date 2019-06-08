@@ -19,12 +19,15 @@
 - Eclipse Version: 2019-03 (4.11.0)
 - Git
 - 네이버 클라우드 설치 (https://www.ncloud.com/) (DB용)
-  ->Server: OS CentOS 7.3 (64-bit)         -서버 접속용 공인 IP : 101.101.164.71, 외부 포트 : 1200
-  ->Cloud DB for MySQL -> 10.2.24 MariaDB  -서버 접속용 공인 IP : 101.101.167.239 외부 포트 : 3306
+  ->Server: OS CentOS 7.3 (64-bit)         
+     -서버 접속용 공인 IP : 101.101.164.71, 외부 포트 : 1200
+  ->Cloud DB for MySQL -> 10.2.24 MariaDB  
+     -서버 접속용 공인 IP : 101.101.167.239 외부 포트 : 3306
   ->클라우드로 DB를 구성하여 테이블에 데이터를 생성하여 INSERT해 놓았습니다.
 
 
 #빌드 및 실행 방법
+    
     1.다운로드 및 import
     -> 주소 : https://github.com/jeongkwan2/SpringBootForKakaoApi.git
     -> SpringBootForKakaoApi-master 폴더를 Eclipse에서 Existing Maven Projects로 import 한다.
@@ -56,7 +59,8 @@
     *문제에서 결과 출력자료형
     year,sumAmt->숫자 name,acctNo->String
 
-    결과: [{"year":2018,"name":"테드","acctNo":"11111114","sumAmt":28992000},{"year":2019,"name":"에이스","acctNo":"11111112","sumAmt":40998400}]
+    결과: [{"year":2018,"name":"테드","acctNo":"11111114","sumAmt":28992000},
+          {"year":2019,"name":"에이스","acctNo":"11111112","sumAmt":40998400}]
 
 
 2. 2018년 또는 2019년에 거래가 없는 고객을 추출하는 API
@@ -74,8 +78,10 @@
     *문제에서 결과 출력자료형
     year->숫자 name,acctNo->String
 
-    결과: [{"year":2018,"name":"사라","acctNo":"11111115"},{"year":2018,"name":"제임스","acctNo":"11111118"},
-          {"year":2019,"name":"테드","acctNo":"11111114"},{"year":2019,"name":"제임스","acctNo":"11111118"}]
+    결과: [{"year":2018,"name":"사라","acctNo":"11111115"},
+          {"year":2018,"name":"제임스","acctNo":"11111118"},
+          {"year":2019,"name":"테드","acctNo":"11111114"},
+          {"year":2019,"name":"제임스","acctNo":"11111118"}]
 
 
 3. 연도별 관리점 별 거래금액 합계를 구하고 합계금액이 큰 순서로 출력하는 API 
