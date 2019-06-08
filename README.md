@@ -19,6 +19,7 @@
 - Eclipse Version: 2019-03 (4.11.0)
 - Git
 - 네이버 클라우드 설치 (https://www.ncloud.com/) (DB용)
+  
   ->Server: OS CentOS 7.3 (64-bit)         
      -서버 접속용 공인 IP : 101.101.164.71, 외부 포트 : 1200
   
@@ -128,7 +129,7 @@
     새 테이블(newtrade_info)에서 조회를 한다.
 
     *문제에서 결과 출력자료형
-     sumAmt->숫자 brName,brCode->String 이고 결과가 바로 배열{}로 나온다.
+     sumAmt->숫자 brName,brCode->String 이고 결과가 바로 배열{}로 나온다.\n
 
     판교로 조회했을때 분당점과 판교점이 합산한 결과가 나온다
     결과: {"brCode":"A","brName":"판교점","sumAmt":171210000}
